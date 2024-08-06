@@ -1,4 +1,4 @@
-#Jump Diffusion Model for Option Pricing
+# Jump Diffusion Model for Option Pricing
 
 ## Dynamics 
 In this model, the option price follows a stochastic process which includes the orthodox Brownian continuous diffusion process in addition to discrete jumps. The price, S(t) is modeled with the following dynamics as given by the reference paper:
