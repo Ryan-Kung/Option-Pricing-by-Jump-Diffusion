@@ -7,6 +7,6 @@ In this model, the option price follows a stochastic process which includes the 
 
 * μ - Drift Rate
 * σ - Volatility
-* W(t) - Standard Brownian Motion
+* W(t) - Wiener Process 
 * N(t) - Poisson process of intensity λ
-* V~i~ - i.i.d. random variables representing jump size (Compound Poisson Process) 
+* $V_i$ - i.i.d. random variables representing jump size (Compound Poisson Process) 
