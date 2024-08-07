@@ -15,4 +15,4 @@ In this model, the option price follows a stochastic process which includes the 
 The jumps occur according to a poisson process N(t) where $\lambda$ is the expected number of jumps per unit time. The model uses a log-normal distribution for the size of the jumps.
 Then, we can adjust the voltatiliy and drift for each jump, k. 
 * Adjusted Volatility: $\sigma_k = \sqrt{\sigma^2 + k \frac{\sigma_J^2}{T}}$
-* Adjusted Drift: $r_k = r - \lambda k + k \log{1+\mu_J} / T $
+* Adjusted Drift: $r_k = r - \lambda k + \frac{k \log{(1+\mu_J)} }/ {T} $
