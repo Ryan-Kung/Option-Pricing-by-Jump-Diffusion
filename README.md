@@ -3,6 +3,7 @@
 ## Dynamics 
 In this model, the option price follows a stochastic process which includes the typical Brownian diffusion process in addition to discrete jumps following a compound Poisson Process. From the reference paper, the price S(t) can be modeled with the following dynamics 
 
+$$\frac{dS(t)}{S(t^-)} = \mu dt + \sigma dW(t) + d(\sum_{i=1}^{N(t)} (V_i - 1))$$
 ![image](https://github.com/user-attachments/assets/c202ff42-1513-4a0a-bc00-052290c1dccf)
 
 * μ - Drift Rate
