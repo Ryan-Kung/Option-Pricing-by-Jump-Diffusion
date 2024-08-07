@@ -20,3 +20,6 @@ Then, we can adjust the voltatiliy and drift for each jump, k.
 Then we accordingly adjust d1 and d2: 
 * $d1 = \frac{log(S_0/K) + (r_k + 0.5\sigma_k^2) \dot T}{\sigma_k \sqrt{T}}$
 * $d2 = d1 - \sigma_k \sqrt{T} $
+
+## Final Pricing
+Call Price = $\sum_{k = 0}^{N} P \times S_0N(d1) - Ke^{-r_k T}N(d2)) $
