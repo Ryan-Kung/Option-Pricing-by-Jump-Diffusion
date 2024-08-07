@@ -24,4 +24,4 @@ Then we accordingly adjust d1 and d2 from the Black-Scholes Formulation:
 ## Final Pricing
 $$Call \space Price = \sum_{n=1}^{\infty} P \times S_0N(d1) - Ke^{-r_k T}N(d2))$$
 
-$ P = Poisson probability of k jumps in T time = $\frac{e^{-\lambdaT}(\lambdaT)^T}{k!}
+$ P = Poisson probability of k jumps in T time = $\frac{e^{-\lambdaT}(\lambdaT)^T}{k!}$
