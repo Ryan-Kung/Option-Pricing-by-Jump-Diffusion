@@ -17,8 +17,8 @@ Then, we can adjust the voltatiliy and drift for each jump, k.
 * Adjusted Volatility: $\sigma_k = \sqrt{\sigma^2 + k \frac{\sigma_J^2}{T}}$
 * Adjusted Drift: $r_k = r - \lambda k + \frac{k \log{(1+\mu_J)} } {T} $
 
-Then we accordingly adjust d1 and d2: 
-* $d1 = \frac{log(S_0/K) + (r_k + 0.5\sigma_k^2) \dot T}{\sigma_k \sqrt{T}}$
+Then we accordingly adjust d1 and d2 from the Black-Scholes Formulation: 
+* $d1 = \frac{log(S_0/K) + (r_k + \frac{\sigma_k^2}{2}) \dot T}{\sigma_k \sqrt{T}}$
 * $d2 = d1 - \sigma_k \sqrt{T} $
 
 ## Final Pricing
