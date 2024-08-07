@@ -22,4 +22,4 @@ Then we accordingly adjust d1 and d2:
 * $d2 = d1 - \sigma_k \sqrt{T} $
 
 ## Final Pricing
-$ Call Price = \sum_{k = 0}^{N} P \times S_0N(d1) - Ke^{-r_k T}N(d2)) $
+Call Price = $\sum_{k = 0}^{N} P \times S_0N(d1) - Ke^{-r_k T}N(d2))$
