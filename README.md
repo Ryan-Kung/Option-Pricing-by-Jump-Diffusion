@@ -18,5 +18,5 @@ Then, we can adjust the voltatiliy and drift for each jump, k.
 * Adjusted Drift: $r_k = r - \lambda k + \frac{k \log{(1+\mu_J)} } {T} $
 
 Then we accordingly adjust d1 and d2: 
-$d1 = \frac{log(S_0/K) + (r_k + 0.5\sigma_k^2) \dot T}{\sigma_k \sqrt{T}}$
-$d2 = d1 - \sigma_k \sqrt{T} $
+* $d1 = \frac{log(S_0/K) + (r_k + 0.5\sigma_k^2) \dot T}{\sigma_k \sqrt{T}}$
+* $d2 = d1 - \sigma_k \sqrt{T} $
