@@ -25,3 +25,8 @@ Then we accordingly adjust d1 and d2 from the Black-Scholes Formulation:
 $$Call \space Price = \sum_{n=1}^{\infty} P \times S_0N(d1) - Ke^{-r_k T}N(d2))$$
 
 $P$ = Poisson probability of $k$ jumps in $T$ time = $\frac{e^{-\lambda T}(\lambda T)^T}{k!}$
+
+## Advantages 
+As described in the paper, there are a couple main advantages to using the Jump Diffusion Model as opposed to a standard Black-Scholes Model for Option Pricing: 
+* Volatility Smile: The relationship between implied volatility and strike price of an option often forms a convex curve which is *not* accounted for by the Black-Scholes Model which makes an assumption of constant volatility
+* Leptokurtic Features: Jumps can model assets whose return distributions have heavier tails or higher peaks, contrary to the Black-Scholes Model which assumes a normally distributed return
